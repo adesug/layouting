@@ -1,3 +1,33 @@
+@font-face {
+    font-family: 'Metropolis';
+    src: url('../fonts/Metropolis-BlackItalic.eot');
+    src: url('../fonts/Metropolis-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Metropolis-BlackItalic.woff2') format('woff2'),
+        url('../fonts/Metropolis-BlackItalic.woff') format('woff'),
+        url('../fonts/Metropolis-BlackItalic.ttf') format('truetype'),
+        url('../fonts/Metropolis-BlackItalic.svg#Metropolis-BlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Metropolis';
+    src: url('../fonts/Metropolis-Regular.eot');
+    src: url('../fonts/Metropolis-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Metropolis-Regular.woff2') format('woff2'),
+        url('../fonts/Metropolis-Regular.woff') format('woff'),
+        url('../fonts/Metropolis-Regular.ttf') format('truetype'),
+        url('../fonts/Metropolis-Regular.svg#Metropolis-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 h1{
     font-family: 'Nabla', cursive;
+}
+p{
+    font-family: 'Metropolis';
 }
