@@ -1,0 +1,64 @@
+body{
+    font-family: 'Metropolis';
+}
+.header{
+    /* border: 3px solid red; */
+    box-shadow: -1px 6px 5px 3px rgba(0,0,0,0.08);
+-webkit-box-shadow: -1px 6px 5px 3px rgba(0,0,0,0.08);
+-moz-box-shadow: -1px 6px 5px 3px rgba(0,0,0,0.08);
+padding: 15px 0;
+}
+.container {
+    /* border: 3px solid green; */
+    width: 1370px;
+    margin: auto;
+    max-width: 80%;
+    display: flex;
+    
+
+}
+.logo {
+    /* border: 3px solid yellow; */
+    width: 151px;
+    display: flex;
+    align-items: center;
+}
+.menu {
+    /* border: 3px solid blue; */
+    /* width: 80%; */
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+.menu a{
+    /* border: 3px solid goldenrod; */
+    /* padding: 10px; */
+    margin: 16px ;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+@media (max-width: 767px) {
+    .menu {
+        display: none;
+    }
+    .hamburger-menu {
+        display: flex;
+        flex: 1;
+        justify-content: flex-end;
+        align-items: center;
+        
+     
+    }
+    .hamburger-menu img {
+        width: 40px;
+    }
+
+
+}
+/* @media (max-width: 767px) {
+
+} */
